@@ -9,7 +9,7 @@ class StringGenerator(object):
         return """<html>
           <head></head>
           <body>
-            <form method="get" action="generate">
+            <form method="post" action="generate">
               <input type="text" value="8" name="length" />
               <button type="submit">Give it now!</button>
             </form>
